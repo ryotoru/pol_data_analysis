@@ -1,0 +1,12 @@
+# Example config 
+# Settings for compute_sentiment.py
+input_path: /home/ryotoru/code/senti_analysis/translated_tweets/plots/sentiment_topic/topic_coverage_sentiment_project/annotated_tweets.xlsx
+output_with_sentiment: /home/ryotoru/code/senti_analysis/translated_tweets/plots/sentiment_topic/topic_coverage_sentiment_project/annotated_topics_frames.csv
+
+# Settings for plot_topic_coverage_sentiment.py
+input_for_plots_with_sentiment: /home/ryotoru/code/senti_analysis/translated_tweets/plots/sentiment_topic/topic_coverage_sentiment_project/annotated_topics_senti.csv
+figures_dir: figures
+time_col: created_at
+time_bucket: month   # options: day, week, month
+smooth_window: # integer for 'day' only
+
